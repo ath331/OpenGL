@@ -30,6 +30,8 @@ void KeyCallback( GLFWwindow* window, int key, int scancode, int action, int mod
 
 	if ( key == GLFW_KEY_F1 && action == GLFW_PRESS )
 	{
+		std::cout << "F1 ÀÔ·ÂÄí~" << std::endl;
+
 		static bool fill = true;
 		if ( fill )
 			glPolygonMode( GL_FRONT_AND_BACK, GL_LINE );
